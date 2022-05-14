@@ -1,17 +1,32 @@
+/*
+  CSS to index.html (Pescado Rafting) from wwr carpet.
+  Rubén Zempoalteca T.
+  14.05.2022.
+*/
+
+/*Div content*/
 #content{
 max-width: 1600px;
 margin:0 auto;
 text-align: center;
 }
 
+/*Section Body*/
+body{
+    background-color: #4496cc0a;
+}
+
+/*Section header*/
+header{
+    background-color: #EB9627;
+    text-align: left;
+}
+
 .logo{
     width: 80px;
 }
 
-.icon{
-    width: 80px;
-}
-
+/*Section nav*/
 nav a{
     text-align: center;
     color:#F8F7FF;
@@ -24,19 +39,20 @@ nav a:hover{
     color: #F8F7FF;
 }
 
+/*Div hero*/
 #hero-img{
     width: 100%;
 }
 
-#hero-msg h1
-{
+#hero-msg h1{
     text-align: center;
 }
-h4 {
+
+h4{
     color:#EB9627;
 }
 
-#hero-msg h4 {
+#hero-msg h4{
     text-align: center;
 }
 
@@ -48,24 +64,7 @@ h4 {
     text-align: center;
 }
 
-main {
-    text-align: center;
-}
-
-#background{
-    height: 725px;
-    background-color: #716F6F;
-}
-
-body{
-    background-color: #4496cc0a;
-}
-
-header{
-    background-color: #EB9627;
-}
-
-.book {
+.book{
     background-color: #462749;
     color:#F8F7FF;
     text-decoration: none;
@@ -74,6 +73,20 @@ header{
 .book:hover{
     background-color: #EB9627;
     color:#F8F7FF;
+}
+
+/*Section main*/
+main{
+    text-align: center;
+}
+
+.icon{
+    width: 80px;
+}
+
+#background{
+    height: 725px;
+    background-color: #716F6F;
 }
 
 .join{
@@ -86,6 +99,7 @@ header{
     background-color: #EB9627;
     
 }
+
 .msg{
     background-color: #4496CC;
     color:#F8F7FF;
@@ -99,6 +113,7 @@ header{
     color:#F8F7FF;
 }
 
+/*Section footer*/
 footer{
     background-color:#EB9627 ;
 }
