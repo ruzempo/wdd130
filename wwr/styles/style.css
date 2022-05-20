@@ -4,6 +4,12 @@
   14.05.2022.
 */
 
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merienda&display=swap');
+
+/*Lato is a sans-serif font so, I will use Arial, Verdana and Helvetica as a fall-back fonts, because they are sans-serif too.
+  for Merienda font I will use Papyrus and Monotype Corsiva */
+
 /*Div content*/
 #content{
 max-width: 1600px;
@@ -14,6 +20,14 @@ text-align: center;
 /*Section Body*/
 body{
     background-color: #4496cc0a;
+    font-family: Lato, Arial, Verdana, Helvetica; /*Apply Lato font to all text in the body section*/
+    font-size: 22px;
+    /*Simple reset*/
+    margin: 0;
+    padding: 0;
+}
+#logo_link{
+    padding-top: 5px;
 }
 
 /*Section header*/
@@ -31,6 +45,7 @@ nav a{
     text-align: center;
     color:#F8F7FF;
     text-decoration: none;
+    padding: 35px;
     
 }
 
@@ -58,6 +73,9 @@ h4{
 
 .home-title{
     color: #4496CC;
+    font-family:Merienda, Papyrus, "Monotype Corsiva";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .button-box{
@@ -68,6 +86,10 @@ h4{
     background-color: #462749;
     color:#F8F7FF;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -80,8 +102,18 @@ main{
     text-align: center;
 }
 
+h2{
+    margin: 0;
+}
+
+.home-grid h2{ /*Apply  Merienda font to all subtitles of the images (Rivers, camping and rapids)*/
+    font-family: Merienda, Papyrus, "Monotype Corsiva";
+    color: #EB9627;
+}
+
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #background{
@@ -93,6 +125,10 @@ main{
     background-color:#462749;
     color:#F8F7FF;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover{
@@ -103,19 +139,57 @@ main{
 .msg{
     background-color: #4496CC;
     color:#F8F7FF;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
 }
 
 .msg h2{
     color:#FFF200;
+    font-family: Merienda, Papyrus, "Monotype Corsiva";
 }
 
 .msg p{
     color:#F8F7FF;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.card-img{
+    border:10px solid #4496CC;
+}
+
+.rivers-card {
+    margin: 200px 0;
+} 
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
+}   
+
+main section img{
+    box-sizing: border-box;
+    
+}
+
+.mountains{
+    display: block;
+    text-align: left;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 /*Section footer*/
 footer{
-    background-color:#EB9627 ;
+    background-color:#EB9627;
+    text-align: left;
+    padding: 25px 50px;
+    margin-top: 200px;
+    
 }
 
 footer h3{
@@ -135,6 +209,9 @@ footer a:hover{
     color:#F8F7FF;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
 
 /*
 * {
