@@ -4,6 +4,12 @@
   14.05.2022.
 */
 
+/*
+* {
+	border: 2px solid blue
+}
+*/
+
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Merienda&display=swap');
 
@@ -174,7 +180,7 @@ h2{
     color:#F8F7FF;
     line-height: 1.5em;
     padding: 35px;
-    margin-top: 200px;
+    /*margin-top: 200px;*/
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #462749;
@@ -313,15 +319,3 @@ footer .social img {
         margin-top: 25px;
     }
 }
-
-
-
-
-
-
-
-/*
-* {
-	border: 2px solid blue
-}
-*/
