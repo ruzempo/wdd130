@@ -65,7 +65,7 @@ nav a:hover{
 /*Div hero*/
 #hero{
     display: grid;
-    grid-template-columns: reat(5,1fr); /* = to 1fr 3fr 1fr*/
+    grid-template-columns: 1fr 3fr 1fr ; /* = to repeat(5,1fr)*/
     margin-top: -100px;
 }
 #hero-box{
