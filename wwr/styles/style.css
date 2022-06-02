@@ -72,7 +72,8 @@ nav a:hover{
 #hero{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr ; /* = to repeat(5,1fr)*/
-    margin-top: -100px;
+    /*margin-top: -100px;*/
+
 }
 #hero-box{
     grid-column: 1/4;
@@ -206,7 +207,7 @@ h2{
 
 .card-img:hover{
     opacity: .6;
-    transform: scale(1,1);
+    transform: scale(1.1);
 }
 
 
@@ -279,7 +280,7 @@ footer .social img {
 /*Media quries*/
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, main.home-grid {
         display: block;
         height: auto;
     }
