@@ -8,7 +8,7 @@
 * {
 	border: 2px solid blue
 }
-*/
+*/ 
 
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Merienda&display=swap');
@@ -302,7 +302,7 @@ main.rates-grid{
 }
 
 .rate-img:hover{
-    opacity: .9;
+    opacity: .8;
     transform: scale(1.1);
 }
 
@@ -354,8 +354,6 @@ main.rates-grid{
 /********************************************
 ************** Contact Us  page *************
 *********************************************/
-
-
 
 #formcontactus{
     border: solid thin #4496CC; 
