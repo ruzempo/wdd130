@@ -302,7 +302,7 @@ main.rates-grid{
 }
 
 .rate-img:hover{
-    opacity: .8;
+    opacity: .9;
     transform: scale(1.1);
 }
 
