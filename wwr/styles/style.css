@@ -364,6 +364,7 @@ main.rates-grid{
     width: 100%;
     grid-column: 1/2;
     text-align: center;
+    padding: 2em;
 }
 
 
@@ -442,6 +443,7 @@ button{
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
+    border: none;
     border-radius: 5px;  
 }
 
