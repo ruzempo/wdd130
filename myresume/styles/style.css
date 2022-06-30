@@ -4,10 +4,11 @@
   20.06.2022.
 */
 
-
-
-
-
+/*
+* {
+	border: 2px solid blue
+}
+*/
 
 /************************************************************
 **************************   Template    ********************
@@ -56,6 +57,7 @@ header{
 nav {
     display: flex;
     justify-content: space-around;
+    font-family: Robo, Arial, Verdana, Helvetica; /*Apply Robo in titles of sections and in nav*/
 }
 nav a{
     text-align: center;
@@ -108,7 +110,7 @@ main side h6{
 }
 main side ul{
     list-style: none;
-    color:#FDFAFD;
+    color:#BBBBBB;
     font-size:medium;
 }
 
@@ -119,9 +121,6 @@ main side ul{
     font-size:50px;
     color:#BBBBBB; 
 }
-
-
-
 
 /*Section footer*/
 footer{
@@ -163,21 +162,27 @@ footer .social img {
 #me{
     grid-column: 2/4;
     grid-row: 2/4;
-    width: 75%;
-    margin-top: 185px;
-    padding: 20px;;
+    width: 100%;
+    margin-top: 200px;
+    margin-left: 40px;
+    padding: 20px;
 }
 
 #profprof{
-    grid-column: 1/5;
+    grid-column: 2/5;
     grid-row: 4/6;
     width: 100%;  
 }
 
+#profproftitle{
+    position: absolute;
+}
+
 #profprof h3{
-    border-bottom: solid thin #BBBBBB;
-    margin: 25px;
-    padding: 15px;
+    font-family: Robo, Arial, Verdana, Helvetica; /*Apply Robo in titles of sections*/
+    margin-left: 85px;
+    text-align: left;
+    
 }
 
 .profile{
@@ -186,13 +191,23 @@ footer .social img {
 }
 
 #areas{
-    grid-column: 1/5;
+    grid-column: 2/5;
     grid-row: 6/7;
     width: 100%;
+    text-align: left; 
+    margin-top: 150px; 
+}
+
+#areastitle{
+    position: absolute;
+}
+#areas h3{
+    margin-left: 85px;
+    font-family: Robo, Arial, Verdana, Helvetica; /*Apply Robo in titles of sections*/
 }
 
 #intro{
-    grid-column: 5/12;
+    grid-column: 6/11;
     grid-row: 2/3;
     width: 100%;
     margin-top: 45px; 
@@ -202,40 +217,99 @@ footer .social img {
 #intro h1,h2{
     text-align: left;
     margin: 25px;
+    font-family: Robo, Arial, Verdana, Helvetica; /*Apply Robo in titles of sections*/
 }
 
 #experience{
-    grid-column: 5/12;
+    grid-column: 6/11;
     grid-row: 3/6;
-    width: 100%;  
+    width: 100%;
+    text-align: left;
+ 
 }
 
 #experience h3 {
-    text-align: left;
     margin-left: 85px;
+    font-family: Robo, Arial, Verdana, Helvetica; /*Apply Robo in titles of sections*/
 }
+
 
 #workexp{ 
     position: absolute;
 }
 
+#job1, #job2, #job3{
+    margin: 25px;
+}
+
 #skills{
-    grid-column: 5/12;
+    grid-column: 6/11;
     grid-row: 6/7;
     width: 100%;  
 }
 
+#skillstitle{
+    position: absolute;
+}
+
+#skills h3{
+    margin-left: 85px;
+    text-align: left;
+    font-family: Robo, Arial, Verdana, Helvetica; /*Apply Robo in titles of sections*/
+}
+
+#skillslanguages{
+    width: 95%;
+    margin: 25px;
+}
+
 #software{
-    grid-column: 5/12;
+    grid-column: 6/11;
     grid-row: 7/8;
     width: 100%;  
 }
 
+#softwaretitle{
+    position: absolute;
+}
+
+#software h3{
+    margin-left: 85px;
+    text-align: left;
+    font-family: Robo, Arial, Verdana, Helvetica; /*Apply Robo in titles of sections*/
+}
+
+#softwarelevel{
+    width: 95%;
+    margin: 25px; 
+   
+}
+
 #education{
-    grid-column: 5/12;
+    grid-column: 6/11;
     grid-row: 8/9;
     width: 100%;
 }
+
+#educationtitle{
+    position: absolute;
+}
+
+#education h3{
+    margin-left: 85px;
+    text-align: left;
+    font-family: Robo, Arial, Verdana, Helvetica; /*Apply Robo in titles of sections*/
+}
+
+.education{
+    text-align: left;
+    margin-right: 25px;
+}
+
+.education ul{
+    list-style: none;
+}
+
 
 /************************************************************
 **************************  Letter Cover ********************
