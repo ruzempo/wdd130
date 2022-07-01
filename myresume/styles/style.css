@@ -162,9 +162,9 @@ footer .social img {
 #me{
     grid-column: 2/4;
     grid-row: 2/4;
-    width: 100%;
+    width: 80%;
     margin-top: 200px;
-    margin-left: 40px;
+    margin-left: 60px;
     padding: 20px;
 }
 
@@ -347,20 +347,103 @@ footer .social img {
     grid-row: 2/3;
     width: 100%;
     margin-top: 35px;
+    margin-left: 35px;
+    text-align: left;
 }
 
+#introskills h2{
+    margin:0;
+    text-align: left;
+}
+
+
 #meskills{
-    grid-column: 9/11;
-    grid-row: 2/3;
-    margin-top: 35px;
+    grid-column: 10/11;
+    grid-row: 2/4;
+    margin-top: 70px;
     text-align: right;
 }
 
 #skillchart{
-    grid-column: 2/10;
-    grid-row: 3/8;
+    grid-column: 1/12;
+    grid-row: 4/10;
     width: 100%;
     margin-top: 100px;
+}
+
+div.gridskills{
+    display: grid;
+    grid-template-columns: repeat(11,1fr);   
+}
+
+#Responsibility{
+    grid-column: 2/5;
+    grid-row: 3/4;
+}
+
+#Self-management{
+    grid-column: 2/5;
+    grid-row: 4/5;
+}
+
+#Leadership{
+    grid-column: 2/5;
+    grid-row: 5/6;    
+}
+
+#Motivation{
+    grid-column: 2/5;
+    grid-row: 6/7;    
+}
+
+.imgnum {
+    width: 20%;
+    float: left;
+    margin-right:5%;
+}
+.txtnum{
+    text-align: left;
+    font-size: medium;
+
+}
+
+#mapskills{
+    grid-column: 5/8;
+    grid-row: 3/10; 
+    width: 100%; 
+    margin-top: 35px;  
+}
+
+#Autonomy{
+    grid-column: 8/11;
+    grid-row: 3/4;    
+}
+
+#Arbitration{
+    grid-column: 8/11;
+    grid-row: 4/5; 
+}
+
+#Cooperation{
+    grid-column: 8/11;
+    grid-row: 5/6; 
+}
+
+#Social{
+    grid-column: 8/11;
+    grid-row: 6/7;
+}
+
+.numimg {
+    width: 20%;
+    float: right;
+    margin-right:5%;
+}
+.numtxt{
+    width: 80%;
+    text-align: right;
+    font-size: medium;
+
 }
 
 /************************************************************
@@ -373,46 +456,88 @@ footer .social img {
     width: 100%;
     margin-top: 35px;
     text-align: left;
+    margin-left: 35px;
 }
 
+
 #ithink{
-    grid-column: 9/11;
+    grid-column: 8/11;
     grid-row: 2/3;
     width: 100%;
     margin-top: 35px;
     text-align: justify;
+    margin-left: 25px;
+    margin-bottom: 55px;
 }
-
+/*
 #cardsarea{
     grid-column: 2/11;
     grid-row: 3/8;
     border: solid thin #BBBBBB;
     width: 100%;
 }
-
+*/
 .imgcards{
-    width: 30%;
+   
     border: solid thin #BBBBBB;
     border-radius: 5px;
     background-color:#FDFAFD ;
 }
 .imgcards img{
-    width: 100%;
+    width: 80%;
+    margin: 15px;
+    border: solid #424242;
+    
+}
+
+#enlarge:hover{
+ transform: scale(1.9);
 }
 
 #cardaccounting{
-    grid-column: 2/4;
+    grid-column: 2/5;
+    grid-row: 5/15;
+    margin:25px;
     
 }
 
 #cardcosts{
-    grid-column: 6/7;
+    grid-column: 5/8;
+    grid-row: 5/10;
+    margin:25px;
 
 }
 
 #cardtaxes{
-    grid-column: 8/10;
+    grid-column: 8/11;
+    grid-row: 5/10;
+    margin:25px;
    
+}
+
+.textcard{
+    text-align: left;
+    margin:25px;
+    height: 30%;
+}
+
+.textcard p{
+    margin:25px;
+}
+
+.button-box-cards{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card-button{
+    background-color: #006599;
+    color:#F8F7FF;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    
 }
 
 /********************************************
@@ -421,11 +546,10 @@ footer .social img {
 
 #Contactform{
     grid-column: 2/11;
-   
     width: 100%;
     border: solid thin #BBBBBB;
     border-radius: 5px;
-    background-color:#FDFAFD ;
+    background-color:#fcfcfc ;
     margin-top: 300px;
 }
 
@@ -444,7 +568,7 @@ form.label{
 
 #msg{
     width: 80%;
-    height: 250px;
+    height: 150px;
     margin: 15px;
 
 }
