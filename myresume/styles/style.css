@@ -810,11 +810,10 @@ div.gridskills{
     margin:25px; 
 }
 
-.imgcards{
-
-    height: 95%;
-
+.button-box-cards{
+    display: none;
 }
+
 
 /********************************************
 ************** @Contact me  page ************
