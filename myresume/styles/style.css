@@ -641,6 +641,7 @@ div.gridskills{
     grid-column: 1/12;
     grid-row: 3/4; 
     margin:5px;
+    text-align: center;
 }
 
 #experience{
@@ -681,6 +682,10 @@ div.gridskills{
     margin: 25px;
 
     
+}
+
+#intro h1, h2{
+    text-align: center;
 }
 
 #job{
@@ -753,6 +758,45 @@ div.gridskills{
 #Social{
     grid-column: 2/11;
     grid-row: 13/14;
+}
+
+/************************************************************
+******************** @ Areas of interest  *******************
+*************************************************************/
+#introareas{
+    grid-column: 2/11;
+    grid-row: 2/3;
+    margin:0px;
+    text-align: center;
+}
+
+#ithink{
+    grid-column: 2/11;
+    grid-row: 3/4;
+    margin:0px;
+}
+
+#enlarge:hover{
+    transform: scale(1.1);
+   }
+
+#cardaccounting{
+    grid-column: 2/11;
+    grid-row: 5/6;
+    margin:25px;
+
+}
+
+#cardcosts{
+    grid-column: 2/11;
+    grid-row: 6/7;
+    margin:25px;  
+}
+
+#cardtaxes{
+    grid-column: 2/11;
+    grid-row: 7/8;
+    margin:25px;  
 }
 
 }
