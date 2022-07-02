@@ -718,16 +718,6 @@ div.gridskills{
     margin:100px auto;
 }
 
-.imgnum img{
-   margin:0px auto; 
-   width: 95%; 
-}
-
-.numimg img{
-    margin:0px auto;
-    width: 80%; 
- }
-
 #Responsibility{
     grid-column: 2/11;
     grid-row: 4/5;
