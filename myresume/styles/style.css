@@ -441,7 +441,7 @@ div.gridskills{
 .numimg {
     width: 20%;
     float: right;
-    margin-right:5%;
+    margin-left:5%;
 }
 .numtxt{
     width: 80%;
@@ -757,6 +757,18 @@ div.gridskills{
 #Social{
     grid-column: 2/11;
     grid-row: 13/14;
+}
+
+.imgnum {
+    width: 20%;
+    float: left;
+    margin-right:8%;
+}
+
+.numimg {
+    width: 20%;
+    float: right;
+    margin-left:8%;
 }
 
 /************************************************************
