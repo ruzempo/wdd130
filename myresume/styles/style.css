@@ -657,8 +657,10 @@ div.gridskills{
 #software{
     grid-column: 1/12;
     grid-row: 7/8; 
-    margin:15px;  
+    margin:15px; 
+    overflow-x: auto;
 }
+
 #education{
     grid-column: 1/12;
     grid-row: 8/8; 
