@@ -634,13 +634,17 @@ div.gridskills{
     grid-column: 1/12;
     grid-row: 3/4; 
     margin:5px;
-    text-align: center;
+    
+}
+
+.icons{
+    margin-left: 15px;
 }
 
 #experience{
     grid-column: 1/12;
     grid-row: 4/6; 
-    margin:15px;  
+    margin:5px auto;  
 }
 
 #skills{
@@ -713,6 +717,13 @@ div.gridskills{
     margin:100px auto;
 }
 
+.imgnum img{
+   width: 80%; 
+}
+
+.numimg img{
+    width: 80%; 
+ }
 
 #Responsibility{
     grid-column: 2/11;
