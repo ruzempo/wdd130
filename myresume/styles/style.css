@@ -670,5 +670,89 @@ div.gridskills{
     margin:15px;   
 }
 
+/************************************************************
+************************** @Letter Cover ********************
+*************************************************************/
+#letter{
+    grid-column: 2/11;
+    grid-row: 4/6;
+    width: 100%; 
+    text-align:justify;
+    margin: 25px;
+
+    
+}
+
+#job{
+   display: none;
+    
+}
+
+/************************************************************
+**************************  @Job Skills  ********************
+*************************************************************/
+
+#meskills{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top:0px;
+    margin-left: 125%;
+}
+#introskills{
+    grid-column: 2/11;
+    grid-row: 3/4; 
+    margin: 0px; 
+    
+}
+
+#introskills h2, h1{
+    text-align: center;
+}
+
+#skillchart{
+    margin:100px auto;
+}
+
+
+#Responsibility{
+    grid-column: 2/11;
+    grid-row: 4/5;
+}
+#Self-management{
+    grid-column: 2/11;
+    grid-row: 5/6;
+} 
+#Leadership{
+    grid-column: 2/11;
+    grid-row: 6/7;
+} 
+#Motivation{
+    grid-column: 2/11;
+    grid-row: 7/8;
+}
+
+#mapskills{
+    grid-column: 2/11;
+    grid-row: 8/9; 
+    width: 100%; 
+    margin: 45px 0px 45px 0px;  
+}
+
+#Autonomy{
+    grid-column: 2/11;
+    grid-row: 9/10;
+}
+#Arbitration{
+    grid-column: 2/11;
+    grid-row: 10/11;
+}
+#Cooperation{
+    grid-column: 2/11;
+    grid-row: 12/13;
+}
+#Social{
+    grid-column: 2/11;
+    grid-row: 13/14;
+}
 
 }
