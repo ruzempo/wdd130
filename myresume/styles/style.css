@@ -772,7 +772,7 @@ div.gridskills{
 #introareas{
     grid-column: 2/11;
     grid-row: 2/3;
-    margin:0px;
+    margin-top:50px;
     text-align: center;
 }
 
