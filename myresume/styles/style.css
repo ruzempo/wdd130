@@ -776,7 +776,11 @@ div.gridskills{
     grid-column: 2/11;
     grid-row: 2/3;
     margin-top:50px;
-    text-align: center;
+    text-align: left;
+}
+
+#introareas h1{
+    text-align: left;
 }
 
 #ithink{
