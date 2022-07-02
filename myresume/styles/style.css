@@ -474,14 +474,7 @@ div.gridskills{
     margin-left: 25px;
     margin-bottom: 55px;
 }
-/*
-#cardsarea{
-    grid-column: 2/11;
-    grid-row: 3/8;
-    border: solid thin #BBBBBB;
-    width: 100%;
-}
-*/
+
 .imgcards{
    
     border: solid thin #BBBBBB;
@@ -679,7 +672,7 @@ div.gridskills{
     grid-row: 4/6;
     width: 100%; 
     text-align:justify;
-    margin: 25px;
+    margin: 5px;
 
     
 }
@@ -698,11 +691,13 @@ div.gridskills{
 *************************************************************/
 
 #meskills{
-    grid-column: 2/3;
+    grid-column: 2/5;
     grid-row: 2/3;
     margin-top:0px;
-    margin-left: 125%;
+    margin-left: 80%;
+    width: 100%;
 }
+
 #introskills{
     grid-column: 2/11;
     grid-row: 3/4; 
@@ -776,6 +771,7 @@ div.gridskills{
     margin:0px;
 }
 
+
 #enlarge:hover{
     transform: scale(1.1);
    }
@@ -795,9 +791,11 @@ div.gridskills{
 
 #cardtaxes{
     grid-column: 2/11;
-    grid-row: 7/8;
+    grid-row: 7/9;
     margin:25px;  
 }
+
+
 
 /********************************************
 ************** @Contact me  page ************
