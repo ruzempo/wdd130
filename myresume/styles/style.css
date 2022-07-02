@@ -660,6 +660,9 @@ div.gridskills{
     margin:15px; 
     overflow-x: auto;
 }
+#softwarelevel{
+    font-size: smaller;
+}
 
 #education{
     grid-column: 1/12;
