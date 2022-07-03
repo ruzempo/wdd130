@@ -108,7 +108,15 @@ main.resume-grid{
 main h6{
     color:#FDFAFD
 }
+/*
 main ul{
+    list-style: none;
+    color:#BBBBBB;
+    font-size:medium;
+}
+*/
+
+.contact ul{
     list-style: none;
     color:#BBBBBB;
     font-size:medium;
@@ -245,6 +253,7 @@ footer .social img {
     margin: 25px;
 }
 
+/*
 .jobs ul li{
     margin: 25px;
     list-style:disc;
@@ -252,6 +261,7 @@ footer .social img {
     font-family: Lato, Arial, Verdana, Helvetica;
     font-size: larger;
 }
+*/
 
 #skills{
     grid-column: 6/11;
@@ -416,7 +426,7 @@ div.gridskills{
 .txtnum{
     text-align: left;
     font-size: medium;
-
+    font-family: Lato, Arial, Verdana, Helvetica;
 }
 
 #mapskills{
@@ -454,8 +464,8 @@ div.gridskills{
 .numtxt{
     width: 80%;
     text-align: right;
-    font-size: medium;
-
+    font-size: large;
+    font-family: Lato, Arial, Verdana, Helvetica;
 }
 
 /************************************************************
