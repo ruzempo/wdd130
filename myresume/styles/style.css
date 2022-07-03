@@ -510,7 +510,7 @@ div.gridskills{
     font-family: Robo, Arial, Verdana, Helvetica;
 }
 
-#enlarge:hover{
+.enlarge:hover{
  transform: scale(1.9);
 }
 
@@ -810,7 +810,7 @@ div.gridskills{
 }
 
 
-#enlarge:hover{
+.enlarge:hover{
     transform: scale(1.1);
    }
 
