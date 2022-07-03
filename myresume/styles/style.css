@@ -105,10 +105,10 @@ main.resume-grid{
     grid-row: 1/2;
 }
 
-main side h6{
+main h6{
     color:#FDFAFD
 }
-main side ul{
+main ul{
     list-style: none;
     color:#BBBBBB;
     font-size:medium;
@@ -243,6 +243,14 @@ footer .social img {
 
 #job1, #job2, #job3{
     margin: 25px;
+}
+
+.jobs ul li{
+    margin: 25px;
+    list-style:disc;
+    color:#000000;
+    font-family: Lato, Arial, Verdana, Helvetica;
+    font-size: larger;
 }
 
 #skills{
