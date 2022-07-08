@@ -179,6 +179,12 @@ footer .social img {
     padding: 20px;
 }
 
+#backgroudPP{
+    background:#BBBBBB;
+    grid-column: 2/5;
+    grid-row:4/9
+}
+
 #profprof{
     grid-column: 2/5;
     grid-row: 4/6;
@@ -192,8 +198,13 @@ footer .social img {
 #profprof h3{
     font-family: Robo, Arial, Verdana, Helvetica; /*Apply Robo in titles of sections*/
     margin-left: 85px;
-    text-align: left;
-    
+    text-align: left;   
+}
+
+#profprof .icons{
+    color:#424242;
+    margin-left: 15px;
+    font-size:50px;  
 }
 
 .profile{
@@ -206,15 +217,25 @@ footer .social img {
     grid-row: 6/7;
     width: 100%;
     text-align: left; 
-    margin-top: 150px; 
+    margin-top: 150px;
+    padding: 5px;
+    font-family: Lato, Arial, Verdana, Helvetica;
 }
 
 #areastitle{
     position: absolute;
+    color:#006599;
 }
 #areas h3{
-    margin-left: 85px;
+    margin-left: 65px;
+    text-align: left;
     font-family: Robo, Arial, Verdana, Helvetica; /*Apply Robo in titles of sections*/
+}
+
+#areas .icons{
+    color:#424242;
+    margin-left: 15px;
+    font-size:42px;
 }
 
 #intro{
@@ -714,6 +735,10 @@ div.gridskills{
 /************************************************************
 **************************  @Home page   ********************
 *************************************************************/
+#backgroudPP{
+    display: none;
+}
+
 #areas{
     display:none;
 }
