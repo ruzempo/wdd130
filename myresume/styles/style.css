@@ -560,6 +560,7 @@ div.gridskills{
     
 }
 
+
 /********************************************
 ************** Contact me  page *************
 *********************************************/
@@ -589,6 +590,16 @@ div.gridskills{
     height: 150px;
     margin: 15px;
 
+}
+
+.card-button-message{
+    background-color: #006599;
+    color:#F8F7FF;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    
 }
 /***********************************************************/
 /*********** A Modal to send a message to the user *********/
@@ -896,7 +907,7 @@ div.gridskills{
     margin:25px; 
 }
 
-.button-box-cards{
+.card-button{
     display: none;
 }
 
